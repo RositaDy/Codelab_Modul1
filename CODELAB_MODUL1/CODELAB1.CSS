@@ -1,0 +1,77 @@
+/* CSS untuk tabel dasar */
+table {
+    width: 60%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* CSS untuk tabel dengan style */
+.styled-table {
+    width: 60%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.styled-table thead th {
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.styled-table tbody td {
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+/* Baris pertama */
+.styled-table tbody tr:nth-child(1) td:nth-child(1) {
+    background-color: cyan;
+}
+
+.styled-table tbody tr:nth-child(1) td:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+.styled-table tbody tr:nth-child(1) td:nth-child(3) {
+    background-color: pink;
+}
+
+/* Baris kedua */
+.styled-table tbody tr:nth-child(2) td:nth-child(1) {
+    background-color: cyan;
+}
+
+.styled-table tbody tr:nth-child(2) td:nth-child(2) {
+    background-color: blue;
+    color: white;
+}
+
+.styled-table tbody tr:nth-child(2) td:nth-child(3) {
+    background-color: pink;
+}
+
+/* Baris ketiga */
+.styled-table tbody tr:nth-child(3) td:nth-child(1) {
+    background-color: cyan;
+}
+
+.styled-table tbody tr:nth-child(3) td:nth-child(2) {
+    background-color: blue;
+    color: white;
+}
+
+.styled-table tbody tr:nth-child(3) td:nth-child(3) {
+    background-color: pink;
+}
